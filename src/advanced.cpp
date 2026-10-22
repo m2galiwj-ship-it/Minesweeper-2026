@@ -56,7 +56,6 @@ void Execute(int row, int column, int type) {
  * You should manually input the data.
  */
 void TestSingle() {
-  InitMap();
   InitGame();
   while (true) {
     Decide(); // Exit() will be called in this function
